@@ -22,7 +22,7 @@ spec:
       - name: nginx
         image: quay.io/kushalsamota/nginx:1.14
         ports:
-        - containerPort: 8090
+        - containerPort: 80
         
 oc create -f dep.yaml
 oc get all
